@@ -1,0 +1,166 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	 background: #f7f7f7;
+	 min-height: 100%;
+	 -webkit-user-selec0000000001t:none;
+	 user-select: none;
+}
+#app{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+     color: #2c3e50;
+}
+
+
+.yd-cell:after {
+  background-image: -webkit-gradient(linear,left bottom, left top,color-stop(50%, transparent),color-stop(0, transparent)) !important;
+  background-image: linear-gradient(0deg,transparent 50%,transparent 0) !important;
+}
+.yd-back-icon:before{
+	font-size: .43rem !important;
+}
+.yd-cell-item{
+	width: 7.12rem !important;
+	margin: 0 auto !important;
+}
+.btnset{
+	width: 6.4rem !important;
+	height: 1rem !important;
+	border-radius: .16rem !important;
+	font-size: .4rem !important;
+	font-weight: bold !important;
+	letter-spacing: .05rem !important;
+}
+.medtxt{
+	font-size: .32rem;
+  color: #333;
+  letter-spacing: .01rem;
+}
+.reltxt{
+		color: #999 !important;
+  font-size: .28rem !important;
+	}
+.date{
+	float: right;
+	font-size: .24rem !important;
+	color: #666 !important;
+}
+.check-group{
+	margin: .2rem auto 0;
+}
+.plh{
+	position: absolute;
+	text-align: left;
+	left: 2.67rem;
+}
+.imgicon{
+	width: 1.6rem;
+	height: 1.6rem;
+	margin: 0 auto;
+}
+.imgicon img{
+	width: 100%;height: 100%;
+}
+.monibtn{
+	width: 2.97rem;
+	height: .94rem;
+	line-height: .94rem;
+	margin: 0 auto;
+	border-radius: .5rem;
+	background-color: #F35C51;
+	font-size: .4rem;
+	color: #fff;
+	text-align: center;
+	letter-spacing: .01rem;
+}
+.reset{
+	color: #EB5050;
+	font-size: .4rem;
+	line-height: .7rem;
+	letter-spacing: .05rem;
+	margin: .2rem;
+}
+@font-face {font-family: "iconfont";
+  src: url('../static/font_icon/iconfont.eot');
+  src: url('../static/font_icon/iconfont.svg#iconfont')format('svg'),
+   url('../static/font_icon/iconfont.woff') format('woff'),
+   url('../static/font_icon/iconfont.ttf') format('truetype');
+}
+[class^="icon-custom-"]:before, [class*=" icon-custom-"]:before {
+    font-family: 'iconfont';
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-custom-return:before {
+    content: '\e623';
+}
+
+.icon-custom-check:before {
+    content: '\e60c';
+}
+ .icon-custom-record:before {
+    content: '\e622';
+}
+.icon-custom-bankcard:before {
+    content: '\e60b';
+}
+.icon-custom-idcard:before {
+    content: '\e62d';
+}
+.icon-custom-set:before {
+    content: '\e626';
+}
+.icon-custom-about:before {
+    content: '\e60a';
+}
+
+
+
+
+.icon-custom-idicon:before{
+	  content: '\e611';
+}
+.icon-custom-icon_life:before{
+	  content: '\e613';
+}
+.icon-custom-operators:before{
+	  content: '\e614';
+}
+.icon-custom-seasame:before{
+	  content: '\e615';
+}
+.icon-custom-ibank:before{
+	  content: '\e60f';
+}
+
+
+
+.icon-custom-message:before{
+	  content: '\e62c';
+}
+
+.icon-custom-help:before{
+	content: '\e62e';
+}
+
+
+.icon-custom-success:before{
+	  content: '\e61f';
+}
+.icon-custom-fail:before{
+	  content: '\e61e';
+}
+.icon-custom-close:before{
+	  content: '\e627';
+}
